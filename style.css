@@ -1,0 +1,56 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1 {
+    font-size: 2rem;
+    color: rgb(53, 32, 98);
+}
+
+.heading {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin: 2rem auto;
+    border-radius: 3px;
+    background-color: rgb(212, 206, 223);
+    padding: 0.32rem 0.5rem;
+    box-shadow: 3px 3px 10px rgb(9, 9, 59);
+}
+
+label {
+    display: block;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+button {
+    width: 4rem;
+    margin: 0.4rem 0.2rem;
+    border-radius: 0.3rem;
+    padding: 0.34rem 0.5rem;
+}
+
+button:hover {
+    background-color: rgb(86, 31, 197);
+}
+
+input {
+    width: 20rem;
+    height: 1.3rem;
+    margin-top: 0.2rem;
+    border-radius: 3px;
+    padding: 0.3rem;
+}
+
+input:hover {
+    background-color: rgb(161, 134, 214);
+}
