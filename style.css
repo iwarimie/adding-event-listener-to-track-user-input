@@ -54,3 +54,12 @@ input {
 input:hover {
     background-color: rgb(161, 134, 214);
 }
+
+input.warning {
+    background-color: rgb(245, 57, 66);
+}
+
+#remaining-chars.warning {
+    color: rgb(226, 22, 14);
+    font-size: larger;
+}
