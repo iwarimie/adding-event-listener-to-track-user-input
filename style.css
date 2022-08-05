@@ -56,7 +56,7 @@ input:hover {
 }
 
 input.warning {
-    background-color: rgb(243, 201, 12);
+    background-color: rgb(250, 132, 132);
 }
 
 #remaining-chars.warning {
