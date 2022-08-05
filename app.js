@@ -11,9 +11,14 @@ function UpdatingRemainingCharsOnInputField(event) {
 
     remainingChars.textContent = remainingCharsToBeEntered;
 
-    if (remainingCharsToBeEntered < 10) {
+    if (remainingCharsToBeEntered === 0) {
+        trackInputField.classList.add('error');
+        remainingChars.classList.add('error');
+    } else if (remainingCharsToBeEntered <= 10) {
         trackInputField.classList.add('warning');
         remainingChars.classList.add('warning');
+        trackInputField.classList.remove('error');
+        remainingChars.classList.remove('error');
     } else {
         trackInputField.classList.remove('warning');
         remainingChars.classList.remove('warning');
